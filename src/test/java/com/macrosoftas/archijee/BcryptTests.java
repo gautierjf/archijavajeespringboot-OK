@@ -34,6 +34,6 @@ public class BcryptTests {
 		System.out.println("encodepwd2017 ="+ encodepwd2017);
 		System.out.println("encodepwd2017bis ="+ encodepwd2017bis);
 
-		assertThat(encodepwd2017).isEqualTo(encodepwd2017bis);
+		assertThat(encodepwd2017).isNotEqualTo(encodepwd2017bis);
 	}
 }
