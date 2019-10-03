@@ -1,6 +1,6 @@
 addons:
   sonarcloud:
-    organization: "sanogotech"
+    organization: "gautierjf"
     token:
       secure: "56002800dfd4f84cf7c407e8e87d90801efbb94f" # encrypted value of your token
 
